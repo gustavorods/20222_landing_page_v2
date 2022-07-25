@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ight@300&display=s ap');
+
+
+body {
+    background-color: huhite;
+    color: #41B1E8;
+    font-family: "Poppins", sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    font-size: 52px;
+    line-height: 10px;
+}
+
+spam {
+    color: #156F9B;
+}
+
+img {
+    height: 520px;
+    width: 620px;
+}
+
+a {
+    color: #41B1E8;
+}
+
+a:hover {
+    color: #156F9B;
+    transition: 0.3s all;
+}
+
+#Tenha-uma-conta {
+    border: 2px solid #41B1E8;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#Tenha-uma-conta:hover {
+    background-color: #41B1E8;
+    color: white;
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-size: 17px;
+}
+
+
+input {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+#emps {
+    border: none;
+    background-color: #DCDCDC	;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 20px;
+    height:  15;
+}
+
+#enviar {
+    height: 50px;
+    width: 25%;
+    background-color: #156F9B;
+    color: white;
+    font-weight: bold ;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+}
